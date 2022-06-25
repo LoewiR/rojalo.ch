@@ -1,0 +1,57 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+  .wp-container-1 {
+    display: flex;
+    gap: var( --wp--style--block-gap, 0.5em );
+    flex-direction: column;
+    align-items: center;
+  }
+
+.has-text-align-center{
+  text-align:center
+}
+
+.wp-block-button__link{box-sizing:border-box;color:#fff;display:inline-block;font-size:2em;padding:calc(.667em + 2px) calc(1.333em + 2px);text-align:center;}
+.wp-block-button__link:hover{color:rgb(115, 184, 174)}
+.wp-block-button__link:visited{color:rgb(136, 115, 184)}
+.wp-block-button__link.aligncenter{text-align:center}
+.wp-block-button.has-custom-width{max-width:none}
+.wp-block-button__link{width:100%}
+.wp-block-buttons>.wp-block-button.wp-block-button__width-50{width:calc(50% - var(--wp--style--block-gap, .5em)*.5)}
+
+body{
+	--wp--preset--color--foreground: #133837;
+	--wp--preset--color--background: #D2F0EA;
+	--wp--custom--button--border--width: 2px;
+	--wp--custom--button--color--background: var(--wp--custom--color--primary);
+	--wp--custom--button--color--text: var(--wp--custom--color--background);
+	--wp--custom--button--typography--font-weight: normal;
+	--wp--custom--button--typography--line-height: 2;
+	--wp--custom--color--foreground: var(--wp--preset--color--foreground);
+	--wp--custom--color--background: var(--wp--preset--color--background);
+	--wp--custom--color--primary: var(--wp--preset--color--foreground);
+	--wp--custom--layout--content-size: 620px;
+	--wp--custom--gap--baseline: 15px;
+	--wp--custom--gap--horizontal: min(30px, 5vw);
+	--wp--custom--gap--vertical: min(30px, 5vw);}
+
+body{
+	background-color: var(--wp--custom--color--background);
+	color: var(--wp--custom--color--foreground);
+	font-family: var(--wp--preset--font-family--body-font);
+	font-size: var(--wp--custom--font-sizes--normal);
+	line-height: var(--wp--custom--body--typography--line-height);
+	--wp--style--block-gap: calc(2 * var(--wp--custom--gap--baseline));}.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }
+	.wp-block-button__link{
+		background-color: var(--wp--custom--button--color--background);
+		border-radius: var(--wp--custom--button--border--radius);
+		font-family: var(--wp--preset--font-family--body-font);
+		font-size: var(--wp--custom--button--typography--font-size);
+		font-weight: var(--wp--custom--button--typography--font-weight);
+		line-height: var(--wp--custom--button--typography--line-height);
+  }
