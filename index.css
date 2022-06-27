@@ -1,0 +1,34 @@
+#global{
+    background-color: black;
+}
+#titlebox{
+    float: left;
+    background: rgb(248, 248, 248);
+    width:100%;
+    height:100%;
+}
+#leftbox {
+    float:left; 
+    background: rgb(248, 248, 248);
+    width:25%;
+    height:10cm;
+
+}
+#middlebox{
+    float:left; 
+    background: white;
+    width:50%;
+    height: 10cm;
+}
+#rightbox{
+    float:right;
+    background: rgb(248, 248, 248);
+    width:25%;
+    height:10cm;
+}
+.title{
+    text-align:center;
+}
+.centered{
+    text-align: center;
+}
