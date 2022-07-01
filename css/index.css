@@ -1,0 +1,66 @@
+/*
+#379683
+
+
+*/
+
+
+#global{
+    background-color: mintcream;
+    font-family: Helvetica;
+}
+#titlebox{
+    margin-top: 0;
+    float: left;
+    width:100%;
+    height:80%;
+}
+#leftbox {
+    float:left; 
+    background: #2a485e;
+    width:25%;
+    height:100%;
+    border: red 1px solid;
+}
+#middlebox{
+    float:left; 
+    width:50%;
+    background-color: mintcream;
+    border: blue 10px solid;
+}
+    .one{
+        background-color: mintcream;
+    }
+    .two{
+        background-color: mintcream;
+        /*Für jedes weitere bild, muss die höhe um 16.65 erhöht werden*/
+    }
+    .three{
+        background-color: gainsboro;
+        height: 20.65vh;
+    }
+#rightbox{
+    float:right;
+    background: #2a485e;
+    width:25%;
+    height:100%;
+}
+
+.centered{
+    text-align: center;
+}
+
+.divimg{
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 0;
+}
+.imgdiv{
+    margin: auto;
+    max-width: 50%;
+}
+
+.title{
+    margin-top: 1vw;
+}
+
