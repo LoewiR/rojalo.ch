@@ -37,6 +37,14 @@
         background-color: gainsboro;
         height: 20.65vh;
     }
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: darkslategrey;
+            color: white;
+        }
 #rightbox{
     float:right;
     background: #2a485e;
@@ -60,5 +68,8 @@
 
 .title{
     margin-top: 1vw;
+}
+.text-color-white{
+    color: white;
 }
 
