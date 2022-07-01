@@ -20,13 +20,11 @@
     background: #2a485e;
     width:25%;
     height:100%;
-    border: red 1px solid;
 }
 #middlebox{
     float:left; 
     width:50%;
     background-color: mintcream;
-    border: blue 10px solid;
 }
     .one{
         background-color: mintcream;
