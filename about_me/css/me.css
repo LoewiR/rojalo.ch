@@ -1,11 +1,32 @@
-
+#leftbox {
+    float:left; 
+    background: #2a485e;
+    width:20%;
+    height:100%;
+}
+#footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkslategrey;
+    color: white;
+}
+.title{
+    margin-top: 1vw;
+}
+.centered{
+    text-align: center;
+}
 
 
 
 @media screen and (max-width: 1070px) {
-    #rightbox, #leftbox
-    {display:none;}
-
-    #middlebox
-    {width: 100%;}
+    body{
+        transform: scale(1.5);
+        transform-origin: top left;
+        width: 66%;
+        -moz-transform: scale(1.5);
+        -moz-transform-origin: top left;
+    }
 }

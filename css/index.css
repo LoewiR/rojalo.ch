@@ -31,11 +31,6 @@
     }
     .two{
         background-color: mintcream;
-        /*Für jedes weitere bild, muss die höhe um 16.65 erhöht werden*/
-    }
-    .three{
-        background-color: gainsboro;
-        height: 20.65vh;
     }
         .footer {
             position: fixed;
@@ -78,14 +73,27 @@
 
 
 
-
-
-@media screen and (max-width: 1070px) {
+/*@media screen and (max-width: 1070px) {
     #rightbox, #leftbox
     {display:none;}
 
     #middlebox
-    {width: 100%;}
+    {   transform: scale(1.2);
+        transform-origin: top left;
+        width: 83%;
+        -moz-transform: scale(1.2);
+        -moz-transform-origin: top left;};
+}*/
+@media screen and (max-width: 780px) {
+    #rightbox, #leftbox
+    {display:none;}
+
+    #middlebox
+    {transform: scale(1.5);
+        transform-origin: top left;
+        width: 66%;
+        -moz-transform: scale(1.5);
+        -moz-transform-origin: top left;}
 }
 
 
