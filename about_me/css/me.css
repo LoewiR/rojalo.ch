@@ -1,9 +1,17 @@
 #leftbox {
     float:left; 
-    background: #2a485e;
+    background: #f5fbff;
     width:20%;
     height:100%;
 }
+#rightbox {
+    float:right; 
+    background: #f5fbff;
+    width:80%;
+    height:100%;
+}
+
+
 #footer {
     position: absolute;
     left: 0;
